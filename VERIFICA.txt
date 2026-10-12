@@ -1,0 +1,5 @@
+Verifica locale: Python 3.12, torch 2.14.1+cpu, torchvision 0.29.1+cpu, ONNX 1.23.2, ONNX Runtime 1.31.0.
+Eseguita una epoca CPU su 12 immagini sintetiche, 2 classi, senza pesi preaddestrati.
+Verificati salvataggio, ricaricamento, valutazione test, export ONNX e inferenza con Pillow/NumPy.
+Differenza massima logits PyTorch/ONNX su input di prova: 1.862645149230957e-09.
+Non eseguito il training completo sui funghi; non misurata Raspberry Pi 3.
